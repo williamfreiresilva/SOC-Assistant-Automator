@@ -13,3 +13,7 @@ SOC Assistant Automator/
 ├── scanner_openvas.py 
 ├── watchlist_ingestor.py  
 └── README.md
+tests/
+├── test_triage.py
+├── test_enrich.py
+└── test_errors.py
