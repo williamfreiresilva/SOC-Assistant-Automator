@@ -5,10 +5,11 @@ A curated collection of tools, scripts, and configurations designed to assist Se
 ## 📁 Repository Structure
 
 ```bash
-soc-solutions/
-├── detections/         # Detection rules, Sigma/YARA rules, etc.
-├── automation/         # Scripts for task automation and enrichment
-├── incident-response/  # IR checklists, templates, tools
-├── threat-intel/       # Threat intelligence integration and lookups
-├── dashboards/         # Dashboards for SIEM/SOAR tools
+SOC Assistant Automator/
+├── intel_feed.py 
+├── main.py 
+├── reporter.py 
+├── scan.py 
+├── scanner_openvas.py 
+├── watchlist_ingestor.py  
 └── README.md
